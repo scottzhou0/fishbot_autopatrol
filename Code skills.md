@@ -1,10 +1,12 @@
 # 1 Git 建号
 ## Gitee 账号与仓库
 - scottzhou0 Token 8415b0c846616d6296adac655b8726f1
-- Github 没有额外额密码
     - ssh-keygen
     - cat ~/.ssh/id_rsa.pub
-    
+- git remote set-url --add --push origin https://gitee.com/scottzhou0/ros2_patrol_robot.git
+- git remote set-url --add --push origin https://github.com/scottzhou0/fishbot_autopatrol.git
+- 推 Gitee：git push
+- 推 GitHub：git push github master 
 
 # 2 Git 命令
 - git init
