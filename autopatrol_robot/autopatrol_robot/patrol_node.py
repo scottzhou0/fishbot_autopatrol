@@ -41,16 +41,19 @@ class PatrolNode(BasicNavigator):
         self.buffer_=Buffer()  # 创建坐标变换缓冲区
         self.listener_=TransformListener(self.buffer_,self)  # 创建坐标变换监听器
         self.speech_client_=self.create_client(SpeechText,'speech_text') # 创建客户端
+
         self.cv_bridge_=CvBridge() # 创建CV桥梁对象
         self.latest_img_=None # 最新图像
+
         self.img_sub_=self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/fishbot/camera_depth/image_raw',
             self.img_callback,
-            1) # 订阅图像话题
+            10) # 订阅图像话题
         
     def img_callback(self,msg):
         self.latest_img_=msg
+        # self.get_logger().info(f"【相机回调】收到图像！宽度：{msg.width}")
 
 
     def record_image(self):
@@ -134,6 +137,7 @@ class PatrolNode(BasicNavigator):
                         f'当前位置: X:{feedback.current_pose.pose.position.x:.2f} Y:{feedback.current_pose.pose.position.y:.2f} | '
                         f'目标位置: X:{target_pose.pose.position.x:.2f} Y:{target_pose.pose.position.y:.2f}'
                         )
+                    rclpy.spin_once(self,timeout_sec=0.1)  # 让节点处理一次，以确保反馈被正确接收
         result = self.getResult()
         self.get_logger().info(f'导航结果: {result}') 
 
@@ -149,6 +153,7 @@ class PatrolNode(BasicNavigator):
                 self.get_logger().info(f'平移:{transform.translation}') #  记录平移信息到日志
                 return transform
             except Exception as e:
+                rclpy.spin_once(self,timeout_sec=0.1)  # 让节点处理一次，以确保变换数据被正确接收
                 self.get_logger().warn(f'获取坐标失败：原因{str(e)}')              #  如果获取变换失败，记录警告信息到日志
 
     def speech_text(self,text):
