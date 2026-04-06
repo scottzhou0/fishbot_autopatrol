@@ -1,0 +1,19 @@
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:12[m[K,
+                 from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:122:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  122 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(nav2_custom_planner::CustomPlanner,
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:11:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   11 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:118:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  118 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

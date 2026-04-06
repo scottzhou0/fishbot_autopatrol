@@ -1,0 +1,418 @@
+[3.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.084s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e309eafb550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e309eafa530>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e309eafa530>>)
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.213s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/scott/chapter8/chapter8_ws'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.274s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore'
+[5.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ignore_ament_install'
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_pkg']
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_pkg'
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['colcon_meta']
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'colcon_meta'
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extensions ['ros']
+[5.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_interfaces) by extension 'ros'
+[5.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopatrol_interfaces' with type 'ros.ament_cmake' and name 'autopatrol_interfaces'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['ignore', 'ignore_ament_install']
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ignore'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ignore_ament_install'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['colcon_pkg']
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'colcon_pkg'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['colcon_meta']
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'colcon_meta'
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extensions ['ros']
+[5.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopatrol_robot) by extension 'ros'
+[5.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopatrol_robot' with type 'ros.ament_python' and name 'autopatrol_robot'
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ignore', 'ignore_ament_install']
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore'
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ignore_ament_install'
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_pkg']
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_pkg'
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['colcon_meta']
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'colcon_meta'
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extensions ['ros']
+[5.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_application) by extension 'ros'
+[5.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_application' with type 'ros.ament_python' and name 'fishbot_application'
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[5.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[5.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_cmake' and name 'fishbot_description'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ignore_ament_install'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_pkg']
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_pkg'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['colcon_meta']
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'colcon_meta'
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extensions ['ros']
+[5.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_navigation2) by extension 'ros'
+[5.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ignore', 'ignore_ament_install']
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore_ament_install'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_pkg']
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_pkg'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_meta']
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_meta'
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ros']
+[5.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ros'
+[5.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_planner' with type 'ros.ament_cmake' and name 'nav2_custom_planner'
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.970s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /mnt/e/Dev_ws/install
+[6.376s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[6.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.731s] DEBUG:colcon.colcon_core.verb:Building package 'autopatrol_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/autopatrol_interfaces', 'symlink_install': False, 'test_result_base': None}
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_target' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[6.731s] Level 5:colcon.colcon_core.verb:set package 'autopatrol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.731s] DEBUG:colcon.colcon_core.verb:Building package 'autopatrol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/autopatrol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot', 'symlink_install': False, 'test_result_base': None}
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_cache' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_clean_first' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'cmake_force_configure' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'ament_cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.732s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/fishbot_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/fishbot_application', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/fishbot_application', 'symlink_install': False, 'test_result_base': None}
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[6.732s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.732s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.733s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_first' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_force_configure' from command line to 'False'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'ament_cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[6.733s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.733s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner', 'merge_install': False, 'path': '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner', 'symlink_install': False, 'test_result_base': None}
+[6.733s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/autopatrol_interfaces' with build type 'ament_cmake'
+[6.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scott/chapter8/chapter8_ws/src/autopatrol_interfaces'
+[6.851s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.326s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot' with build type 'ament_python'
+[7.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_robot', 'ament_prefix_path')
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.ps1'
+[7.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.dsv'
+[7.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/ament_prefix_path.sh'
+[7.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/fishbot_application' with build type 'ament_python'
+[7.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'ament_prefix_path')
+[7.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.ps1'
+[7.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.dsv'
+[7.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/ament_prefix_path.sh'
+[7.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.105s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/fishbot_description' with build type 'ament_cmake'
+[8.106s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scott/chapter8/chapter8_ws/src/fishbot_description'
+[8.106s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.106s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[8.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scott/chapter8/chapter8_ws/src/fishbot_navigation2'
+[8.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner' with build type 'ament_cmake'
+[8.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner'
+[8.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces -- -j16 -l16
+[17.934s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot'
+[17.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.948s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/scott/chapter8/chapter8_ws/src/fishbot_application'
+[24.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_description -- -j16 -l16
+[25.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2 -- -j16 -l16
+[25.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner
+[25.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces -- -j16 -l16
+[25.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces
+[25.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_description -- -j16 -l16
+[25.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_description
+[25.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2 -- -j16 -l16
+[25.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2
+[25.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[25.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_description
+[25.735s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description' for CMake module files
+[25.736s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description' for CMake config files
+[25.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[25.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[25.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[25.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[25.738s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/bin'
+[25.738s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[25.738s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/lib/python3.10/site-packages'
+[25.739s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/bin'
+[25.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[25.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[25.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[25.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[25.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[25.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[25.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[25.743s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description' for CMake module files
+[25.743s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description' for CMake config files
+[25.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'cmake_prefix_path')
+[25.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.ps1'
+[25.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.dsv'
+[25.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/hook/cmake_prefix_path.sh'
+[25.745s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/bin'
+[25.745s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[25.745s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/lib/python3.10/site-packages'
+[25.746s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_description/bin'
+[25.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[25.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[25.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[25.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[25.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[25.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[25.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[25.751s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2' for CMake module files
+[25.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2
+[25.752s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2' for CMake config files
+[25.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[25.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[25.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[25.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[25.755s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/bin'
+[25.755s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[25.755s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[25.756s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/bin'
+[25.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[25.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[25.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[25.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[25.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[25.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[25.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[25.759s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2' for CMake module files
+[25.759s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2' for CMake config files
+[25.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[25.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[25.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[25.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[25.762s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/bin'
+[25.762s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[25.762s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/lib/python3.10/site-packages'
+[25.763s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/bin'
+[25.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[25.764s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[25.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[25.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[25.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[25.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[27.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[27.638s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces' for CMake module files
+[27.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces
+[27.639s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces' for CMake config files
+[27.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[27.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[27.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[27.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[27.641s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib'
+[27.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[27.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[27.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[27.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[27.642s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/bin'
+[27.642s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[27.642s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[27.643s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/bin'
+[27.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[27.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[27.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[27.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[27.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[27.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[27.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_interfaces)
+[27.646s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces' for CMake module files
+[27.647s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces' for CMake config files
+[27.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'cmake_prefix_path')
+[27.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.ps1'
+[27.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.dsv'
+[27.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/cmake_prefix_path.sh'
+[27.649s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib'
+[27.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_interfaces', 'ld_library_path_lib')
+[27.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.ps1'
+[27.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.dsv'
+[27.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/hook/ld_library_path_lib.sh'
+[27.650s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/bin'
+[27.651s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/pkgconfig/autopatrol_interfaces.pc'
+[27.651s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/python3.10/site-packages'
+[27.651s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/bin'
+[27.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.ps1'
+[27.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv'
+[27.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.sh'
+[27.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.bash'
+[27.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.zsh'
+[27.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/colcon-core/packages/autopatrol_interfaces)
+[31.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build install --record /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[31.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/chapter8_ws/src/fishbot_application': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/scott/chapter8/chapter8_ws/build/fishbot_application/build install --record /home/scott/chapter8/chapter8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[36.143s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot' for CMake module files
+[36.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build install --record /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[36.144s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot' for CMake config files
+[36.144s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib'
+[36.145s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/bin'
+[36.145s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/pkgconfig/autopatrol_robot.pc'
+[36.145s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages'
+[36.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopatrol_robot', 'pythonpath')
+[36.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.ps1'
+[36.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.dsv'
+[36.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/hook/pythonpath.sh'
+[36.147s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/bin'
+[36.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopatrol_robot)
+[36.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/package.ps1'
+[36.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/package.dsv'
+[36.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/package.sh'
+[36.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/package.bash'
+[36.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/package.zsh'
+[36.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/colcon-core/packages/autopatrol_robot)
+[36.151s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application' for CMake module files
+[36.152s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application' for CMake config files
+[36.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/scott/chapter8/chapter8_ws/build/fishbot_application/build install --record /home/scott/chapter8/chapter8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[36.153s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application/lib'
+[36.153s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application/bin'
+[36.154s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application/lib/pkgconfig/fishbot_application.pc'
+[36.154s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application/lib/python3.10/site-packages'
+[36.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_application', 'pythonpath')
+[36.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.ps1'
+[36.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.dsv'
+[36.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/hook/pythonpath.sh'
+[36.156s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/fishbot_application/bin'
+[36.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_application)
+[36.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/package.ps1'
+[36.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/package.dsv'
+[36.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/package.sh'
+[36.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/package.bash'
+[36.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/fishbot_application/package.zsh'
+[36.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/fishbot_application/share/colcon-core/packages/fishbot_application)
+[38.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner
+[38.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[38.403s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner' for CMake module files
+[38.404s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner' for CMake config files
+[38.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[38.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[38.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[38.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[38.406s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/bin'
+[38.406s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[38.406s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/lib/python3.10/site-packages'
+[38.406s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/bin'
+[38.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[38.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[38.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[38.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[38.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[38.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[38.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[38.420s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[38.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.645s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.646s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[38.646s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/chapter8_ws/install/local_setup.ps1'
+[38.647s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scott/chapter8/chapter8_ws/install/_local_setup_util_ps1.py'
+[38.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/chapter8_ws/install/setup.ps1'
+[38.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/chapter8_ws/install/local_setup.sh'
+[38.864s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scott/chapter8/chapter8_ws/install/_local_setup_util_sh.py'
+[38.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/chapter8_ws/install/setup.sh'
+[39.091s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/chapter8_ws/install/local_setup.bash'
+[39.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/chapter8_ws/install/setup.bash'
+[39.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/chapter8_ws/install/local_setup.zsh'
+[39.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/chapter8_ws/install/setup.zsh'

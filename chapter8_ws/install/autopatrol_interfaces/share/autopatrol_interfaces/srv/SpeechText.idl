@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autopatrol_interfaces/srv/SpeechText.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/String.idl"
+
+module autopatrol_interfaces {
+  module srv {
+    struct SpeechText_Request {
+      std_msgs::msg::String text;
+    };
+    struct SpeechText_Response {
+      boolean success;
+    };
+  };
+};

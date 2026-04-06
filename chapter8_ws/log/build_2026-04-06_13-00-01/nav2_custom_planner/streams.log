@@ -1,0 +1,205 @@
+[0.673s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner
+[1.026s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.394s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[12.068s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[12.084s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.086s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.091s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.161s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.454s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[12.523s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.538s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[12.596s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[13.012s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[13.075s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[13.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.763s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.828s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.050s] -- Configured cppcheck include dirs: /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include
+[17.050s] -- Configured cppcheck exclude dirs and/or files: 
+[17.051s] -- Added test 'lint_cmake' to check CMake code style
+[17.051s] -- Added test 'uncrustify' to check C / C++ code style
+[17.052s] -- Configured uncrustify additional arguments: 
+[17.052s] -- Added test 'xmllint' to check XML markup files
+[17.053s] -- Configuring done
+[17.192s] -- Generating done
+[17.200s] -- Build files have been written to: /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner
+[17.214s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner
+[17.216s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16
+[18.239s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[21.523s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.525s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.525s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.525s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::cleanup()[m[K’:
+[21.525s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:42:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%S[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.525s]    33 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在清理 CustomPlanner的插件 %S"[m[K , name_.c_str());
+[21.525s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.525s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.525s]    33 |         RCLCPP_INFO(node_->get_logger(), "正在清理 CustomPlanner的插件 %[01;36m[KS[m[K" , name_.c_str());
+[21.525s]       |                                                                         [01;36m[K^[m[K
+[21.525s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.526s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.526s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%S[m[K’ expects argument of type ‘[01m[Kwchar_t*[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.526s]    33 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在清理 CustomPlanner的插件 %S"[m[K , [32m[Kname_.c_str()[m[K);
+[21.526s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   [32m[K~~~~~~~~~~~~~[m[K
+[21.526s]       |                                                                                         [32m[K|[m[K
+[21.526s]       |                                                                                         [32m[Kconst char*[m[K
+[21.526s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.526s]    33 |         RCLCPP_INFO(node_->get_logger(), "正在清理 CustomPlanner的插件 [01;36m[K%S[m[K" , name_.c_str());
+[21.526s]       |                                                                        [01;36m[K~^[m[K
+[21.526s]       |                                                                         [01;36m[K|[m[K
+[21.526s]       |                                                                         [01;36m[Kwchar_t*[m[K
+[21.526s]       |                                                                        [32m[K%s[m[K
+[21.526s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.526s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.527s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.527s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::activate()[m[K’:
+[21.527s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:42:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%S[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.527s]    38 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在激活 CustomPlanner的插件 %S"[m[K , name_.c_str());
+[21.527s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.527s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.527s]    38 |         RCLCPP_INFO(node_->get_logger(), "正在激活 CustomPlanner的插件 %[01;36m[KS[m[K" , name_.c_str());
+[21.527s]       |                                                                         [01;36m[K^[m[K
+[21.527s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.527s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.528s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.528s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%S[m[K’ expects argument of type ‘[01m[Kwchar_t*[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.528s]    38 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在激活 CustomPlanner的插件 %S"[m[K , [32m[Kname_.c_str()[m[K);
+[21.528s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   [32m[K~~~~~~~~~~~~~[m[K
+[21.528s]       |                                                                                         [32m[K|[m[K
+[21.528s]       |                                                                                         [32m[Kconst char*[m[K
+[21.528s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.528s]    38 |         RCLCPP_INFO(node_->get_logger(), "正在激活 CustomPlanner的插件 [01;36m[K%S[m[K" , name_.c_str());
+[21.528s]       |                                                                        [01;36m[K~^[m[K
+[21.528s]       |                                                                         [01;36m[K|[m[K
+[21.528s]       |                                                                         [01;36m[Kwchar_t*[m[K
+[21.528s]       |                                                                        [32m[K%s[m[K
+[21.528s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.528s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.529s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.529s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::deactivate()[m[K’:
+[21.529s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:42:[m[K [01;35m[Kwarning: [m[KISO C++11 does not support the ‘[01m[K%S[m[K’ gnu_printf format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.529s]    43 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在停用 CustomPlanner的插件 %S"[m[K , name_.c_str());
+[21.529s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.529s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.529s]    43 |         RCLCPP_INFO(node_->get_logger(), "正在停用 CustomPlanner的插件 %[01;36m[KS[m[K" , name_.c_str());
+[21.529s]       |                                                                         [01;36m[K^[m[K
+[21.529s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[21.529s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[21.530s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[21.530s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1[m[K:
+[21.530s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%S[m[K’ expects argument of type ‘[01m[Kwchar_t*[m[K’, but argument 5 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[21.530s]    43 |         RCLCPP_INFO(node_->get_logger(), [01;35m[K"正在停用 CustomPlanner的插件 %S"[m[K , [32m[Kname_.c_str()[m[K);
+[21.530s]       |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K   [32m[K~~~~~~~~~~~~~[m[K
+[21.530s]       |                                                                                         [32m[K|[m[K
+[21.530s]       |                                                                                         [32m[Kconst char*[m[K
+[21.530s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[21.530s]    43 |         RCLCPP_INFO(node_->get_logger(), "正在停用 CustomPlanner的插件 [01;36m[K%S[m[K" , name_.c_str());
+[21.530s]       |                                                                        [01;36m[K~^[m[K
+[21.530s]       |                                                                         [01;36m[K|[m[K
+[21.530s]       |                                                                         [01;36m[Kwchar_t*[m[K
+[21.530s]       |                                                                        [32m[K%s[m[K
+[21.530s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[21.530s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:48:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.531s]    48 |         [01;35m[Kconst geometry_msgs::msg::PoseStamped & start[m[K,
+[21.531s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.531s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:49:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[21.531s]    49 |         [01;35m[Kconst geometry_msgs::msg::PoseStamped & goal[m[K)
+[21.531s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[22.679s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[22.679s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[22.679s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[22.679s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[22.679s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[22.679s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:12[m[K,
+[22.679s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[22.679s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_custom_planner::CustomPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[22.679s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[22.679s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’
+[22.679s]   218 |     return [01;31m[Knew C[m[K;
+[22.679s]       |            [01;31m[K^~~~~[m[K
+[22.679s] In file included from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[22.679s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:24:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’:
+[22.679s]    24 | class [01;36m[KCustomPlanner[m[K: public nav2_core::GlobalPlanner
+[22.679s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[22.680s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:12:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+[22.680s]    12 |     void [01;36m[KCustomPlanner[m[K::configure(
+[22.680s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[22.680s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:31:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::cleanup()[m[K’
+[22.680s]    31 |     void [01;36m[KCustomPlanner[m[K::cleanup()
+[22.680s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[22.680s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:36:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::activate()[m[K’
+[22.680s]    36 |     void [01;36m[KCustomPlanner[m[K::activate()
+[22.680s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[22.680s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:41:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::deactivate()[m[K’
+[22.680s]    41 |     void [01;36m[KCustomPlanner[m[K::deactivate()
+[22.680s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[22.680s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:47:5:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[22.680s]    47 |     [01;36m[KCustomPlanner[m[K::createPlan(
+[22.680s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[22.836s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] Error 1
+[22.837s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[22.837s] gmake: *** [Makefile:146: all] Error 2
+[22.839s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16

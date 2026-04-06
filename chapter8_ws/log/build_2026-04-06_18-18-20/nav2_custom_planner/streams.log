@@ -1,0 +1,36 @@
+[0.759s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16
+[1.860s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[2.149s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[6.463s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:12:10:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid nav2_custom_planner::CustomPlanner::configure(const WeakPtr&, const string&, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+[6.463s]    12 |     void [01;31m[KCustomPlanner[m[K::configure(
+[6.464s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[6.464s] In file included from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[6.464s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:30:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+[6.464s]    30 |         void [01;36m[Kconfigure[m[K(
+[6.464s]       |              [01;36m[K^~~~~~~~~[m[K
+[6.464s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:24:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass nav2_custom_planner::CustomPlanner[m[K’ defined here
+[6.464s]    24 | class [01;36m[KCustomPlanner[m[K: public nav2_core::GlobalPlanner
+[6.464s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[6.471s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:121:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[6.472s]   121 |         geometry_msgs::msg::PoseStamped goal_pose = [01;31m[Kgoal[m[K;
+[6.472s]       |                                                     [01;31m[K^~~~[m[K
+[6.473s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:122:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pose[m[K’ does not name a type
+[6.473s]   122 |         [01;31m[Kgoal_pose[m[K.header.stamp = node_->now(); // 更新目标点的时间戳
+[6.473s]       |         [01;31m[K^~~~~~~~~[m[K
+[6.475s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:123:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_pose[m[K’ does not name a type
+[6.475s]   123 |         [01;31m[Kgoal_pose[m[K.header.frame_id = global_frame_;
+[6.475s]       |         [01;31m[K^~~~~~~~~[m[K
+[6.476s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:125:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path[m[K’ does not name a type
+[6.476s]   125 |         [01;31m[Kglobal_path[m[K.poses.push_back(goal_pose); // 将目标点加入路径
+[6.476s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.477s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:126:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[6.477s]   126 |         [01;31m[Kreturn[m[K global_path; // 返回生成的路径
+[6.477s]       |         [01;31m[K^~~~~~[m[K
+[8.090s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[8.090s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:119:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.090s]   119 |         [01;35m[K}[m[K
+[8.090s]       |         [01;35m[K^[m[K
+[8.174s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] Error 1
+[8.174s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[8.175s] gmake: *** [Makefile:146: all] Error 2
+[8.178s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16

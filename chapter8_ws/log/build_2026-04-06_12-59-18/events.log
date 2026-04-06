@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (-) JobUnselected: {'identifier': 'autopatrol_interfaces'}
+[0.000646] (-) JobUnselected: {'identifier': 'autopatrol_robot'}
+[0.000682] (-) JobUnselected: {'identifier': 'fishbot_application'}
+[0.000712] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.000739] (-) JobUnselected: {'identifier': 'fishbot_navigation2'}
+[0.000767] (nav2_custom_planner) JobQueued: {'identifier': 'nav2_custom_planner', 'dependencies': OrderedDict()}
+[0.000796] (nav2_custom_planner) JobStarted: {'identifier': 'nav2_custom_planner'}
+[0.099727] (-) TimerEvent: {}
+[0.200000] (-) TimerEvent: {}
+[0.300255] (-) TimerEvent: {}
+[0.400523] (-) TimerEvent: {}
+[0.500772] (-) TimerEvent: {}
+[0.601095] (-) TimerEvent: {}
+[0.614002] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'cmake'}
+[0.614910] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner', '-DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner'], 'cwd': '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('GIT_ASKPASS', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/e/Dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/chapter8'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6e7f2d12-1cb9-4163-ba51-15f340e77bdc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/e/Dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('NAME', 'Scott'), ('WSL_INTEROP', '/run/WSL/420_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Scott Zhou/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c8fcd7f803a0844e.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/scott/.vscode-server/data/User/workspaceStorage/838ca2b95fe1ebe7473aff6d574db71b/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5e448b906.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/e/Dev_ws/install/learning_urdf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_topic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_tf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_service/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_qos/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_parameter/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_node/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_launch/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_action/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/e/Dev_ws/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_cv/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.701172] (-) TimerEvent: {}
+[0.801529] (-) TimerEvent: {}
+[0.901923] (-) TimerEvent: {}
+[0.907224] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.002037] (-) TimerEvent: {}
+[1.102394] (-) TimerEvent: {}
+[1.202746] (-) TimerEvent: {}
+[1.303108] (-) TimerEvent: {}
+[1.403416] (-) TimerEvent: {}
+[1.503754] (-) TimerEvent: {}
+[1.604107] (-) TimerEvent: {}
+[1.704383] (-) TimerEvent: {}
+[1.804669] (-) TimerEvent: {}
+[1.904982] (-) TimerEvent: {}
+[2.005289] (-) TimerEvent: {}
+[2.105613] (-) TimerEvent: {}
+[2.205923] (-) TimerEvent: {}
+[2.306212] (-) TimerEvent: {}
+[2.406522] (-) TimerEvent: {}
+[2.506870] (-) TimerEvent: {}
+[2.607182] (-) TimerEvent: {}
+[2.707486] (-) TimerEvent: {}
+[2.807852] (-) TimerEvent: {}
+[2.908148] (-) TimerEvent: {}
+[3.008461] (-) TimerEvent: {}
+[3.108775] (-) TimerEvent: {}
+[3.209074] (-) TimerEvent: {}
+[3.309368] (-) TimerEvent: {}
+[3.409673] (-) TimerEvent: {}
+[3.510010] (-) TimerEvent: {}
+[3.610340] (-) TimerEvent: {}
+[3.710662] (-) TimerEvent: {}
+[3.810947] (-) TimerEvent: {}
+[3.911241] (-) TimerEvent: {}
+[4.011542] (-) TimerEvent: {}
+[4.111856] (-) TimerEvent: {}
+[4.212158] (-) TimerEvent: {}
+[4.312430] (-) TimerEvent: {}
+[4.412737] (-) TimerEvent: {}
+[4.513023] (-) TimerEvent: {}
+[4.613305] (-) TimerEvent: {}
+[4.713627] (-) TimerEvent: {}
+[4.813986] (-) TimerEvent: {}
+[4.914318] (-) TimerEvent: {}
+[5.014637] (-) TimerEvent: {}
+[5.114935] (-) TimerEvent: {}
+[5.215235] (-) TimerEvent: {}
+[5.315532] (-) TimerEvent: {}
+[5.415854] (-) TimerEvent: {}
+[5.516186] (-) TimerEvent: {}
+[5.616482] (-) TimerEvent: {}
+[5.716769] (-) TimerEvent: {}
+[5.817077] (-) TimerEvent: {}
+[5.917378] (-) TimerEvent: {}
+[6.017683] (-) TimerEvent: {}
+[6.117966] (-) TimerEvent: {}
+[6.218308] (-) TimerEvent: {}
+[6.318761] (-) TimerEvent: {}
+[6.419141] (-) TimerEvent: {}
+[6.519457] (-) TimerEvent: {}
+[6.619806] (-) TimerEvent: {}
+[6.720102] (-) TimerEvent: {}
+[6.820418] (-) TimerEvent: {}
+[6.920685] (-) TimerEvent: {}
+[7.020963] (-) TimerEvent: {}
+[7.121292] (-) TimerEvent: {}
+[7.221570] (-) TimerEvent: {}
+[7.321859] (-) TimerEvent: {}
+[7.422151] (-) TimerEvent: {}
+[7.522437] (-) TimerEvent: {}
+[7.622728] (-) TimerEvent: {}
+[7.723020] (-) TimerEvent: {}
+[7.764501] (nav2_custom_planner) StdoutLine: {'line': b'-- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[7.823109] (-) TimerEvent: {}
+[7.923444] (-) TimerEvent: {}
+[8.023802] (-) TimerEvent: {}
+[8.124119] (-) TimerEvent: {}
+[8.224486] (-) TimerEvent: {}
+[8.324838] (-) TimerEvent: {}
+[8.425162] (-) TimerEvent: {}
+[8.525452] (-) TimerEvent: {}
+[8.625766] (-) TimerEvent: {}
+[8.726066] (-) TimerEvent: {}
+[8.826403] (-) TimerEvent: {}
+[8.926709] (-) TimerEvent: {}
+[9.027068] (-) TimerEvent: {}
+[9.127377] (-) TimerEvent: {}
+[9.227669] (-) TimerEvent: {}
+[9.327997] (-) TimerEvent: {}
+[9.428293] (-) TimerEvent: {}
+[9.528598] (-) TimerEvent: {}
+[9.628900] (-) TimerEvent: {}
+[9.729235] (-) TimerEvent: {}
+[9.829540] (-) TimerEvent: {}
+[9.929891] (-) TimerEvent: {}
+[10.030242] (-) TimerEvent: {}
+[10.130584] (-) TimerEvent: {}
+[10.230920] (-) TimerEvent: {}
+[10.331246] (-) TimerEvent: {}
+[10.431544] (-) TimerEvent: {}
+[10.531899] (-) TimerEvent: {}
+[10.632200] (-) TimerEvent: {}
+[10.732527] (-) TimerEvent: {}
+[10.832869] (-) TimerEvent: {}
+[10.933185] (-) TimerEvent: {}
+[11.033551] (-) TimerEvent: {}
+[11.133880] (-) TimerEvent: {}
+[11.234196] (-) TimerEvent: {}
+[11.334499] (-) TimerEvent: {}
+[11.372272] (nav2_custom_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[11.387238] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.389213] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.393852] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.434601] (-) TimerEvent: {}
+[11.471156] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.534703] (-) TimerEvent: {}
+[11.545309] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.634824] (-) TimerEvent: {}
+[11.735158] (-) TimerEvent: {}
+[11.784262] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.835264] (-) TimerEvent: {}
+[11.858298] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.873445] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[11.935394] (-) TimerEvent: {}
+[11.937514] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.035536] (-) TimerEvent: {}
+[12.135926] (-) TimerEvent: {}
+[12.236265] (-) TimerEvent: {}
+[12.336574] (-) TimerEvent: {}
+[12.369607] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.428904] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.436679] (-) TimerEvent: {}
+[12.536981] (-) TimerEvent: {}
+[12.637294] (-) TimerEvent: {}
+[12.737625] (-) TimerEvent: {}
+[12.837950] (-) TimerEvent: {}
+[12.899301] (nav2_custom_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.938060] (-) TimerEvent: {}
+[13.038398] (-) TimerEvent: {}
+[13.101017] (nav2_custom_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.138506] (-) TimerEvent: {}
+[13.165218] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.238593] (-) TimerEvent: {}
+[13.338926] (-) TimerEvent: {}
+[13.439200] (-) TimerEvent: {}
+[13.539508] (-) TimerEvent: {}
+[13.639913] (-) TimerEvent: {}
+[13.740206] (-) TimerEvent: {}
+[13.840486] (-) TimerEvent: {}
+[13.940829] (-) TimerEvent: {}
+[14.041150] (-) TimerEvent: {}
+[14.141437] (-) TimerEvent: {}
+[14.241725] (-) TimerEvent: {}
+[14.342068] (-) TimerEvent: {}
+[14.442351] (-) TimerEvent: {}
+[14.542674] (-) TimerEvent: {}
+[14.642976] (-) TimerEvent: {}
+[14.743285] (-) TimerEvent: {}
+[14.843630] (-) TimerEvent: {}
+[14.943949] (-) TimerEvent: {}
+[15.044234] (-) TimerEvent: {}
+[15.144534] (-) TimerEvent: {}
+[15.244820] (-) TimerEvent: {}
+[15.345149] (-) TimerEvent: {}
+[15.445449] (-) TimerEvent: {}
+[15.545726] (-) TimerEvent: {}
+[15.646018] (-) TimerEvent: {}
+[15.746356] (-) TimerEvent: {}
+[15.846683] (-) TimerEvent: {}
+[15.946969] (-) TimerEvent: {}
+[16.047366] (-) TimerEvent: {}
+[16.147821] (-) TimerEvent: {}
+[16.248090] (-) TimerEvent: {}
+[16.348398] (-) TimerEvent: {}
+[16.413927] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.414221] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include\n'}
+[16.414287] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.414661] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.415666] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.415799] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.416055] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.416850] (nav2_custom_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.422066] (nav2_custom_planner) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[16.422280] (nav2_custom_planner) StderrLine: {'line': b'  Cannot find source file:\n'}
+[16.422353] (nav2_custom_planner) StderrLine: {'line': b'\n'}
+[16.422417] (nav2_custom_planner) StderrLine: {'line': b'    src/nav2-custom_planner.cpp\n'}
+[16.422479] (nav2_custom_planner) StderrLine: {'line': b'\n'}
+[16.422539] (nav2_custom_planner) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[16.422598] (nav2_custom_planner) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[16.422655] (nav2_custom_planner) StderrLine: {'line': b'\n'}
+[16.422712] (nav2_custom_planner) StderrLine: {'line': b'\x1b[0m\n'}
+[16.425199] (nav2_custom_planner) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[16.425372] (nav2_custom_planner) StderrLine: {'line': b'  No SOURCES given to target: nav2_custom_planner_plugin\n'}
+[16.425431] (nav2_custom_planner) StderrLine: {'line': b'\n'}
+[16.425482] (nav2_custom_planner) StderrLine: {'line': b'\x1b[0m\n'}
+[16.425529] (nav2_custom_planner) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[16.437672] (nav2_custom_planner) CommandEnded: {'returncode': 1}
+[16.448480] (-) TimerEvent: {}
+[16.548839] (-) TimerEvent: {}
+[16.557459] (nav2_custom_planner) JobEnded: {'identifier': 'nav2_custom_planner', 'rc': 1}
+[16.568273] (-) EventReactorShutdown: {}

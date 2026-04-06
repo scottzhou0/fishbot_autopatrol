@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="fishbot_ros2_control">
+    <!-- 标准ros2_control系统配置 -->
+    <ros2_control name="fishbot_controller" type="system">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+      
+      <!-- 左车轮关节 - 仅保留速度接口（官方标准格式） -->
+      <joint name="left_wheel_joint">
+        <command_interface name="velocity"/>
+        <command_interface name="effort"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+      </joint>
+
+      <!-- 右车轮关节 - 仅保留速度接口（官方标准格式） -->
+      <joint name="right_wheel_joint">
+        <command_interface name="velocity"/>
+        <command_interface name="effort"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+    </joint>
+    </ros2_control>
+  
+
+    <!-- Gazebo插件配置（极简版） -->
+    <gazebo>
+      <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+        <!-- 强制使用绝对路径，避免任何路径解析问题 -->
+        <parameters>/home/scott/chapter6/chapter6_ws/src/fishbot_description/config/fishbot_ros2_control.yaml</parameters>
+        <!-- 禁用命名空间，避免冲突 -->
+        <robot_namespace>/</robot_namespace>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+</robot>

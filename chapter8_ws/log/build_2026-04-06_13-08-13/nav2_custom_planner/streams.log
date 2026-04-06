@@ -1,0 +1,42 @@
+[0.633s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16
+[1.645s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[1.913s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[5.500s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[5.500s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:55:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nav2_custom_planner::CustomPlanner[m[K’ has no member named ‘[01m[Know[m[K’
+[5.500s]    55 |             Global_path.header.stamp = this->[01;31m[Know[m[K();
+[5.501s]       |                                              [01;31m[K^~~[m[K
+[6.694s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[6.694s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[6.694s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[6.694s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[6.694s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[6.694s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:12[m[K,
+[6.694s]                  from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[6.694s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_custom_planner::CustomPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[6.694s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[6.694s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’
+[6.694s]   218 |     return [01;31m[Knew C[m[K;
+[6.695s]       |            [01;31m[K^~~~~[m[K
+[6.695s] In file included from [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6[m[K:
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:24:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’:
+[6.695s]    24 | class [01;36m[KCustomPlanner[m[K: public nav2_core::GlobalPlanner
+[6.695s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:12:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+[6.695s]    12 |     void [01;36m[KCustomPlanner[m[K::configure(
+[6.695s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:31:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::cleanup()[m[K’
+[6.695s]    31 |     void [01;36m[KCustomPlanner[m[K::cleanup()
+[6.695s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:36:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::activate()[m[K’
+[6.695s]    36 |     void [01;36m[KCustomPlanner[m[K::activate()
+[6.695s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:41:10:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void nav2_custom_planner::CustomPlanner::deactivate()[m[K’
+[6.695s]    41 |     void [01;36m[KCustomPlanner[m[K::deactivate()
+[6.695s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[6.695s] [01m[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:48:5:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[6.695s]    48 |     [01;36m[KCustomPlanner[m[K::createPlan(
+[6.695s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[6.856s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] Error 1
+[6.857s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[6.857s] gmake: *** [Makefile:146: all] Error 2
+[6.861s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner -- -j16 -l16

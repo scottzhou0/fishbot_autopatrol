@@ -1,0 +1,107 @@
+[13.532s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/fishbot_description -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/fishbot_description
+[14.140s] -- The C compiler identification is GNU 11.4.0
+[14.748s] -- The CXX compiler identification is GNU 11.4.0
+[15.231s] -- Detecting C compiler ABI info
+[15.686s] -- Detecting C compiler ABI info - done
+[15.692s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.692s] -- Detecting C compile features
+[15.692s] -- Detecting C compile features - done
+[15.696s] -- Detecting CXX compiler ABI info
+[16.158s] -- Detecting CXX compiler ABI info - done
+[16.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[16.164s] -- Detecting CXX compile features
+[16.164s] -- Detecting CXX compile features - done
+[16.936s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[25.862s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[38.908s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[46.699s] -- Added test 'flake8' to check Python code syntax and style conventions
+[46.803s] -- Added test 'lint_cmake' to check CMake code style
+[46.907s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[47.017s] -- Added test 'xmllint' to check XML markup files
+[47.242s] -- Configuring done
+[47.250s] -- Generating done
+[47.252s] [33mCMake Warning:
+[47.252s]   Manually-specified variables were not used by the project:
+[47.252s] 
+[47.252s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[47.252s] 
+[47.252s] [0m
+[47.253s] -- Build files have been written to: /home/scott/chapter8/chapter8_ws/build/fishbot_description
+[47.259s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/fishbot_description -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/fishbot_description
+[47.261s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_description -- -j16 -l16
+[47.619s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_description -- -j16 -l16
+[47.621s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_description
+[47.685s] -- Install configuration: ""
+[47.685s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/launch
+[47.686s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py:Zone.Identifier
+[47.687s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[47.687s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py:Zone.Identifier
+[47.687s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[47.687s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf
+[47.688s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf:Zone.Identifier
+[47.688s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[47.689s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf:Zone.Identifier
+[47.689s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro:Zone.Identifier
+[47.690s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv:Zone.Identifier
+[47.690s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[47.690s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[47.691s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[47.692s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[47.692s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro:Zone.Identifier
+[47.693s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[47.693s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[47.693s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro:Zone.Identifier
+[47.694s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro:Zone.Identifier
+[47.694s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[47.695s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[47.695s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro:Zone.Identifier
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro:Zone.Identifier
+[47.696s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro:Zone.Identifier
+[47.697s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro:Zone.Identifier
+[47.697s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacr:Zone.Identifier
+[47.697s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacr
+[47.697s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[47.697s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[47.698s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[47.698s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[47.698s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro:Zone.Identifier
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro:Zone.Identifier
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro:Zone.Identifier
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro:Zone.Identifier
+[47.699s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/config
+[47.700s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_control.yaml:Zone.Identifier
+[47.700s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz:Zone.Identifier
+[47.700s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[47.700s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_control.yaml
+[47.700s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world
+[47.701s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/custom_room2.world:Zone.Identifier
+[47.702s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world:Zone.Identifier
+[47.702s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/room
+[47.702s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[47.703s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[47.703s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf:Zone.Identifier
+[47.703s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/room/model.config:Zone.Identifier
+[47.703s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/custom_room2.world
+[47.704s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[47.705s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[47.706s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[47.708s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[47.708s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[47.708s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[47.708s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[47.709s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[47.709s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[47.709s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[47.709s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[47.709s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[47.710s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[47.711s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[47.711s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[47.711s] -- Installing: /home/scott/chapter8/chapter8_ws/install/fishbot_description/share/fishbot_description/package.xml
+[47.725s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_description

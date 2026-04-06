@@ -1,0 +1,151 @@
+[2.307s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.307s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71a48d83f520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a48d83e500>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a48d83e500>>)
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.850s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/scott/chapter8/learn_plugin'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.895s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extensions ['ignore', 'ignore_ament_install']
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extension 'ignore'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extension 'ignore_ament_install'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extensions ['colcon_pkg']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extension 'colcon_pkg'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extensions ['colcon_meta']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extension 'colcon_meta'
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extensions ['ros']
+[3.897s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_control_system) by extension 'ros'
+[3.899s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_control_system' with type 'ros.ament_cmake' and name 'motion_control_system'
+[3.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /mnt/e/Dev_ws/install
+[4.699s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[4.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.949s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_args' from command line to 'None'
+[4.949s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_target' from command line to 'None'
+[4.949s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.949s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_clean_cache' from command line to 'False'
+[4.949s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_clean_first' from command line to 'False'
+[4.950s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'cmake_force_configure' from command line to 'False'
+[4.950s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'ament_cmake_args' from command line to 'None'
+[4.950s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'catkin_cmake_args' from command line to 'None'
+[4.950s] Level 5:colcon.colcon_core.verb:set package 'motion_control_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.950s] DEBUG:colcon.colcon_core.verb:Building package 'motion_control_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scott/chapter8/learn_plugin/build/motion_control_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scott/chapter8/learn_plugin/install/motion_control_system', 'merge_install': False, 'path': '/home/scott/chapter8/learn_plugin/src/motion_control_system', 'symlink_install': False, 'test_result_base': None}
+[4.950s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.951s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scott/chapter8/learn_plugin/src/motion_control_system' with build type 'ament_cmake'
+[4.951s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scott/chapter8/learn_plugin/src/motion_control_system'
+[5.022s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.022s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/learn_plugin/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/learn_plugin/build/motion_control_system -- -j16 -l16
+[23.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/learn_plugin/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/learn_plugin/build/motion_control_system -- -j16 -l16
+[23.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scott/chapter8/learn_plugin/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/learn_plugin/build/motion_control_system
+[23.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_control_system)
+[23.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scott/chapter8/learn_plugin/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/learn_plugin/build/motion_control_system
+[23.562s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system' for CMake module files
+[23.562s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system' for CMake config files
+[23.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control_system', 'cmake_prefix_path')
+[23.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.ps1'
+[23.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.dsv'
+[23.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.sh'
+[23.565s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib'
+[23.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control_system', 'ld_library_path_lib')
+[23.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.ps1'
+[23.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.dsv'
+[23.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.sh'
+[23.566s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/bin'
+[23.566s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib/pkgconfig/motion_control_system.pc'
+[23.567s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib/python3.10/site-packages'
+[23.567s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/bin'
+[23.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.ps1'
+[23.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.dsv'
+[23.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.sh'
+[23.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.bash'
+[23.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.zsh'
+[23.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/learn_plugin/install/motion_control_system/share/colcon-core/packages/motion_control_system)
+[23.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_control_system)
+[23.571s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system' for CMake module files
+[23.572s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system' for CMake config files
+[23.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control_system', 'cmake_prefix_path')
+[23.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.ps1'
+[23.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.dsv'
+[23.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/cmake_prefix_path.sh'
+[23.574s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib'
+[23.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_control_system', 'ld_library_path_lib')
+[23.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.ps1'
+[23.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.dsv'
+[23.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/hook/ld_library_path_lib.sh'
+[23.575s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/bin'
+[23.575s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib/pkgconfig/motion_control_system.pc'
+[23.576s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/lib/python3.10/site-packages'
+[23.576s] Level 1:colcon.colcon_core.environment:checking '/home/scott/chapter8/learn_plugin/install/motion_control_system/bin'
+[23.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.ps1'
+[23.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.dsv'
+[23.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.sh'
+[23.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.bash'
+[23.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.zsh'
+[23.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scott/chapter8/learn_plugin/install/motion_control_system/share/colcon-core/packages/motion_control_system)
+[23.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.580s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.771s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.771s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.772s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.773s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/learn_plugin/install/local_setup.ps1'
+[23.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scott/chapter8/learn_plugin/install/_local_setup_util_ps1.py'
+[23.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/learn_plugin/install/setup.ps1'
+[23.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/learn_plugin/install/local_setup.sh'
+[23.967s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scott/chapter8/learn_plugin/install/_local_setup_util_sh.py'
+[23.968s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/learn_plugin/install/setup.sh'
+[24.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/learn_plugin/install/local_setup.bash'
+[24.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/learn_plugin/install/setup.bash'
+[24.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scott/chapter8/learn_plugin/install/local_setup.zsh'
+[24.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scott/chapter8/learn_plugin/install/setup.zsh'

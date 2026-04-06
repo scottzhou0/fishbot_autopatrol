@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.000659] (-) JobUnselected: {'identifier': 'autopatrol_interfaces'}
+[0.000717] (-) JobUnselected: {'identifier': 'autopatrol_robot'}
+[0.000756] (-) JobUnselected: {'identifier': 'fishbot_application'}
+[0.000913] (-) JobUnselected: {'identifier': 'fishbot_description'}
+[0.000961] (-) JobUnselected: {'identifier': 'fishbot_navigation2'}
+[0.001007] (nav2_custom_planner) JobQueued: {'identifier': 'nav2_custom_planner', 'dependencies': OrderedDict()}
+[0.001053] (nav2_custom_planner) JobStarted: {'identifier': 'nav2_custom_planner'}
+[0.099749] (-) TimerEvent: {}
+[0.200126] (-) TimerEvent: {}
+[0.300460] (-) TimerEvent: {}
+[0.400768] (-) TimerEvent: {}
+[0.501018] (-) TimerEvent: {}
+[0.601281] (-) TimerEvent: {}
+[0.671511] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'cmake'}
+[0.672763] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner', '-DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner'], 'cwd': '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('GIT_ASKPASS', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/e/Dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/chapter8'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6e7f2d12-1cb9-4163-ba51-15f340e77bdc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/e/Dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('NAME', 'Scott'), ('WSL_INTEROP', '/run/WSL/420_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Scott Zhou/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c8fcd7f803a0844e.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/scott/.vscode-server/data/User/workspaceStorage/838ca2b95fe1ebe7473aff6d574db71b/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5e448b906.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/e/Dev_ws/install/learning_urdf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_topic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_tf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_service/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_qos/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_parameter/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_node/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_launch/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_action/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/e/Dev_ws/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_cv/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[0.701391] (-) TimerEvent: {}
+[0.801696] (-) TimerEvent: {}
+[0.901997] (-) TimerEvent: {}
+[1.002249] (-) TimerEvent: {}
+[1.026697] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102355] (-) TimerEvent: {}
+[1.202668] (-) TimerEvent: {}
+[1.302991] (-) TimerEvent: {}
+[1.403262] (-) TimerEvent: {}
+[1.503561] (-) TimerEvent: {}
+[1.603849] (-) TimerEvent: {}
+[1.704155] (-) TimerEvent: {}
+[1.804415] (-) TimerEvent: {}
+[1.904701] (-) TimerEvent: {}
+[2.005054] (-) TimerEvent: {}
+[2.105367] (-) TimerEvent: {}
+[2.205676] (-) TimerEvent: {}
+[2.306004] (-) TimerEvent: {}
+[2.406325] (-) TimerEvent: {}
+[2.506667] (-) TimerEvent: {}
+[2.606982] (-) TimerEvent: {}
+[2.707357] (-) TimerEvent: {}
+[2.807738] (-) TimerEvent: {}
+[2.908068] (-) TimerEvent: {}
+[3.008414] (-) TimerEvent: {}
+[3.108679] (-) TimerEvent: {}
+[3.208969] (-) TimerEvent: {}
+[3.309221] (-) TimerEvent: {}
+[3.409631] (-) TimerEvent: {}
+[3.509906] (-) TimerEvent: {}
+[3.610190] (-) TimerEvent: {}
+[3.710499] (-) TimerEvent: {}
+[3.810824] (-) TimerEvent: {}
+[3.911238] (-) TimerEvent: {}
+[4.011666] (-) TimerEvent: {}
+[4.111994] (-) TimerEvent: {}
+[4.212402] (-) TimerEvent: {}
+[4.312729] (-) TimerEvent: {}
+[4.412992] (-) TimerEvent: {}
+[4.513266] (-) TimerEvent: {}
+[4.613628] (-) TimerEvent: {}
+[4.713888] (-) TimerEvent: {}
+[4.814166] (-) TimerEvent: {}
+[4.914410] (-) TimerEvent: {}
+[5.014699] (-) TimerEvent: {}
+[5.114965] (-) TimerEvent: {}
+[5.215228] (-) TimerEvent: {}
+[5.315639] (-) TimerEvent: {}
+[5.415998] (-) TimerEvent: {}
+[5.516318] (-) TimerEvent: {}
+[5.616707] (-) TimerEvent: {}
+[5.717079] (-) TimerEvent: {}
+[5.817396] (-) TimerEvent: {}
+[5.917661] (-) TimerEvent: {}
+[6.017962] (-) TimerEvent: {}
+[6.118220] (-) TimerEvent: {}
+[6.218539] (-) TimerEvent: {}
+[6.318805] (-) TimerEvent: {}
+[6.419117] (-) TimerEvent: {}
+[6.519404] (-) TimerEvent: {}
+[6.619686] (-) TimerEvent: {}
+[6.719994] (-) TimerEvent: {}
+[6.820296] (-) TimerEvent: {}
+[6.920582] (-) TimerEvent: {}
+[7.020886] (-) TimerEvent: {}
+[7.121154] (-) TimerEvent: {}
+[7.221491] (-) TimerEvent: {}
+[7.321795] (-) TimerEvent: {}
+[7.422161] (-) TimerEvent: {}
+[7.522461] (-) TimerEvent: {}
+[7.622819] (-) TimerEvent: {}
+[7.723187] (-) TimerEvent: {}
+[7.823455] (-) TimerEvent: {}
+[7.923746] (-) TimerEvent: {}
+[8.024020] (-) TimerEvent: {}
+[8.124294] (-) TimerEvent: {}
+[8.224561] (-) TimerEvent: {}
+[8.324869] (-) TimerEvent: {}
+[8.394735] (nav2_custom_planner) StdoutLine: {'line': b'-- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[8.424971] (-) TimerEvent: {}
+[8.525272] (-) TimerEvent: {}
+[8.625597] (-) TimerEvent: {}
+[8.725931] (-) TimerEvent: {}
+[8.826246] (-) TimerEvent: {}
+[8.926521] (-) TimerEvent: {}
+[9.026804] (-) TimerEvent: {}
+[9.127091] (-) TimerEvent: {}
+[9.227481] (-) TimerEvent: {}
+[9.327820] (-) TimerEvent: {}
+[9.428092] (-) TimerEvent: {}
+[9.528523] (-) TimerEvent: {}
+[9.628812] (-) TimerEvent: {}
+[9.729123] (-) TimerEvent: {}
+[9.829515] (-) TimerEvent: {}
+[9.929835] (-) TimerEvent: {}
+[10.030116] (-) TimerEvent: {}
+[10.130383] (-) TimerEvent: {}
+[10.230698] (-) TimerEvent: {}
+[10.330975] (-) TimerEvent: {}
+[10.431278] (-) TimerEvent: {}
+[10.531571] (-) TimerEvent: {}
+[10.631833] (-) TimerEvent: {}
+[10.732137] (-) TimerEvent: {}
+[10.832402] (-) TimerEvent: {}
+[10.932678] (-) TimerEvent: {}
+[11.033066] (-) TimerEvent: {}
+[11.133405] (-) TimerEvent: {}
+[11.233775] (-) TimerEvent: {}
+[11.334104] (-) TimerEvent: {}
+[11.434404] (-) TimerEvent: {}
+[11.534707] (-) TimerEvent: {}
+[11.634988] (-) TimerEvent: {}
+[11.735310] (-) TimerEvent: {}
+[11.835618] (-) TimerEvent: {}
+[11.935933] (-) TimerEvent: {}
+[12.036246] (-) TimerEvent: {}
+[12.069072] (nav2_custom_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)\n'}
+[12.085173] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.087126] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.091866] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.136348] (-) TimerEvent: {}
+[12.162172] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.231996] (nav2_custom_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.236429] (-) TimerEvent: {}
+[12.336731] (-) TimerEvent: {}
+[12.437010] (-) TimerEvent: {}
+[12.454395] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.523925] (nav2_custom_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.537118] (-) TimerEvent: {}
+[12.538480] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.597408] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[12.637225] (-) TimerEvent: {}
+[12.737593] (-) TimerEvent: {}
+[12.837879] (-) TimerEvent: {}
+[12.938162] (-) TimerEvent: {}
+[13.012843] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[13.038268] (-) TimerEvent: {}
+[13.076293] (nav2_custom_planner) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[13.138395] (-) TimerEvent: {}
+[13.238735] (-) TimerEvent: {}
+[13.339035] (-) TimerEvent: {}
+[13.439307] (-) TimerEvent: {}
+[13.539636] (-) TimerEvent: {}
+[13.569431] (nav2_custom_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.639713] (-) TimerEvent: {}
+[13.740036] (-) TimerEvent: {}
+[13.764423] (nav2_custom_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.828485] (nav2_custom_planner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.840132] (-) TimerEvent: {}
+[13.940389] (-) TimerEvent: {}
+[14.040736] (-) TimerEvent: {}
+[14.141019] (-) TimerEvent: {}
+[14.241319] (-) TimerEvent: {}
+[14.341594] (-) TimerEvent: {}
+[14.441917] (-) TimerEvent: {}
+[14.542233] (-) TimerEvent: {}
+[14.642508] (-) TimerEvent: {}
+[14.742856] (-) TimerEvent: {}
+[14.843121] (-) TimerEvent: {}
+[14.943394] (-) TimerEvent: {}
+[15.043676] (-) TimerEvent: {}
+[15.143935] (-) TimerEvent: {}
+[15.244228] (-) TimerEvent: {}
+[15.344529] (-) TimerEvent: {}
+[15.444856] (-) TimerEvent: {}
+[15.545167] (-) TimerEvent: {}
+[15.645473] (-) TimerEvent: {}
+[15.745776] (-) TimerEvent: {}
+[15.846042] (-) TimerEvent: {}
+[15.946497] (-) TimerEvent: {}
+[16.046885] (-) TimerEvent: {}
+[16.147163] (-) TimerEvent: {}
+[16.247447] (-) TimerEvent: {}
+[16.347754] (-) TimerEvent: {}
+[16.448018] (-) TimerEvent: {}
+[16.548291] (-) TimerEvent: {}
+[16.648559] (-) TimerEvent: {}
+[16.748878] (-) TimerEvent: {}
+[16.849168] (-) TimerEvent: {}
+[16.949474] (-) TimerEvent: {}
+[17.049834] (-) TimerEvent: {}
+[17.050814] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[17.051041] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include\n'}
+[17.051132] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[17.051580] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[17.052488] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[17.052565] (nav2_custom_planner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[17.052804] (nav2_custom_planner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[17.053601] (nav2_custom_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.149945] (-) TimerEvent: {}
+[17.192894] (nav2_custom_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[17.200671] (nav2_custom_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/scott/chapter8/chapter8_ws/build/nav2_custom_planner\n'}
+[17.214829] (nav2_custom_planner) CommandEnded: {'returncode': 0}
+[17.215420] (nav2_custom_planner) JobProgress: {'identifier': 'nav2_custom_planner', 'progress': 'build'}
+[17.216002] (nav2_custom_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner', '--', '-j16', '-l16'], 'cwd': '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('GIT_ASKPASS', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/e/Dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/chapter8'), ('TERM_PROGRAM_VERSION', '1.114.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6e7f2d12-1cb9-4163-ba51-15f340e77bdc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/mnt/e/Dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('NAME', 'Scott'), ('WSL_INTEROP', '/run/WSL/420_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/scott/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/scott/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Scott Zhou/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Scott Zhou/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/scott/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c8fcd7f803a0844e.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/scott/.vscode-server/data/User/workspaceStorage/838ca2b95fe1ebe7473aff6d574db71b/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e5e448b906.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/e/Dev_ws/install/learning_urdf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_topic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_tf/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_service/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_qos/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_pkg_python/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_parameter/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_node/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_launch/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_action/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_interface/local/lib/python3.10/dist-packages:/mnt/e/Dev_ws/install/learning_gazebo_harmonic/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_gazebo/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/learning_cv/lib/python3.10/site-packages:/mnt/e/Dev_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/e/Dev_ws/install/learning_topic_cpp:/mnt/e/Dev_ws/install/learning_tf_cpp:/mnt/e/Dev_ws/install/learning_service_cpp:/mnt/e/Dev_ws/install/learning_pkg_c:/mnt/e/Dev_ws/install/learning_parameter_cpp:/mnt/e/Dev_ws/install/learning_node_cpp:/mnt/e/Dev_ws/install/learning_action_cpp:/mnt/e/Dev_ws/install/learning_interface:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up')]), 'shell': False}
+[17.250030] (-) TimerEvent: {}
+[17.350377] (-) TimerEvent: {}
+[17.450731] (-) TimerEvent: {}
+[17.551057] (-) TimerEvent: {}
+[17.651348] (-) TimerEvent: {}
+[17.751651] (-) TimerEvent: {}
+[17.852018] (-) TimerEvent: {}
+[17.952311] (-) TimerEvent: {}
+[18.052736] (-) TimerEvent: {}
+[18.153013] (-) TimerEvent: {}
+[18.239705] (nav2_custom_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o\x1b[0m\n'}
+[18.253128] (-) TimerEvent: {}
+[18.353477] (-) TimerEvent: {}
+[18.453748] (-) TimerEvent: {}
+[18.554031] (-) TimerEvent: {}
+[18.654301] (-) TimerEvent: {}
+[18.754622] (-) TimerEvent: {}
+[18.854942] (-) TimerEvent: {}
+[18.955271] (-) TimerEvent: {}
+[19.055614] (-) TimerEvent: {}
+[19.155919] (-) TimerEvent: {}
+[19.256239] (-) TimerEvent: {}
+[19.356546] (-) TimerEvent: {}
+[19.456872] (-) TimerEvent: {}
+[19.557166] (-) TimerEvent: {}
+[19.657507] (-) TimerEvent: {}
+[19.757822] (-) TimerEvent: {}
+[19.858135] (-) TimerEvent: {}
+[19.958421] (-) TimerEvent: {}
+[20.058781] (-) TimerEvent: {}
+[20.159093] (-) TimerEvent: {}
+[20.259421] (-) TimerEvent: {}
+[20.359736] (-) TimerEvent: {}
+[20.460042] (-) TimerEvent: {}
+[20.560329] (-) TimerEvent: {}
+[20.660594] (-) TimerEvent: {}
+[20.760953] (-) TimerEvent: {}
+[20.861352] (-) TimerEvent: {}
+[20.961641] (-) TimerEvent: {}
+[21.061934] (-) TimerEvent: {}
+[21.162257] (-) TimerEvent: {}
+[21.262577] (-) TimerEvent: {}
+[21.363031] (-) TimerEvent: {}
+[21.463485] (-) TimerEvent: {}
+[21.524303] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.524558] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.524614] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.524740] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.524935] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.525055] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.525183] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.525352] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.525437] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.525678] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.525740] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.525787] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.525828] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.525872] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::cleanup()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.526103] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 does not support the \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 gnu_printf format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.526161] (nav2_custom_planner) StderrLine: {'line': b'   33 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe6\xb8\x85\xe7\x90\x86 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , name_.c_str());\n'}
+[21.526304] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.526354] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.526405] (nav2_custom_planner) StderrLine: {'line': b'   33 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe6\xb8\x85\xe7\x90\x86 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %\x1b[01;36m\x1b[KS\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.526447] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.526494] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.526535] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.526574] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.526612] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.526664] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.526706] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.526746] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.526786] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.526825] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.526869] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.526909] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.526948] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.526986] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.527024] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kwchar_t*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.527065] (nav2_custom_planner) StderrLine: {'line': b'   33 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe6\xb8\x85\xe7\x90\x86 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , \x1b[32m\x1b[Kname_.c_str()\x1b[m\x1b[K);\n'}
+[21.527109] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.527147] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.527186] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[21.527223] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:33:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.527264] (nav2_custom_planner) StderrLine: {'line': b'   33 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe6\xb8\x85\xe7\x90\x86 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 \x1b[01;36m\x1b[K%S\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.527308] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.527348] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.527385] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[Kwchar_t*\x1b[m\x1b[K\n'}
+[21.527424] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[21.527462] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.527502] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.527548] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.527608] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.527665] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.527704] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.527741] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.527780] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.527818] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.527857] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.527921] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.527974] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.528014] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.528053] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::activate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.528092] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 does not support the \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 gnu_printf format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.528137] (nav2_custom_planner) StderrLine: {'line': b'   38 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe6\xbf\x80\xe6\xb4\xbb CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , name_.c_str());\n'}
+[21.528205] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.528250] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.528291] (nav2_custom_planner) StderrLine: {'line': b'   38 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe6\xbf\x80\xe6\xb4\xbb CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %\x1b[01;36m\x1b[KS\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.528332] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.528371] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.528409] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.528446] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.528496] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.528535] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.528573] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.528617] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.528654] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.528692] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.528731] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.528768] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.528805] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.528842] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.528879] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kwchar_t*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.528921] (nav2_custom_planner) StderrLine: {'line': b'   38 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe6\xbf\x80\xe6\xb4\xbb CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , \x1b[32m\x1b[Kname_.c_str()\x1b[m\x1b[K);\n'}
+[21.528992] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.529066] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.529109] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[21.529148] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:38:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.529187] (nav2_custom_planner) StderrLine: {'line': b'   38 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe6\xbf\x80\xe6\xb4\xbb CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 \x1b[01;36m\x1b[K%S\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.529226] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.529264] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.529328] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[Kwchar_t*\x1b[m\x1b[K\n'}
+[21.529433] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[21.529484] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.529527] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.529570] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.529610] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.529655] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.529697] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.529797] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.529853] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.529899] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.529943] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.529986] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.530029] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.530072] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.530112] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::deactivate()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.530204] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 does not support the \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 gnu_printf format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.530275] (nav2_custom_planner) StderrLine: {'line': b'   43 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe5\x81\x9c\xe7\x94\xa8 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , name_.c_str());\n'}
+[21.530329] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.530372] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.530413] (nav2_custom_planner) StderrLine: {'line': b'   43 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe5\x81\x9c\xe7\x94\xa8 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %\x1b[01;36m\x1b[KS\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.530453] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[21.530493] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.530534] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.530574] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.530614] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.530652] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.530690] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.530729] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.530766] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.530804] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.530842] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.530878] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.530916] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20\x1b[m\x1b[K,\n'}
+[21.530954] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:1\x1b[m\x1b[K:\n'}
+[21.530993] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%S\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kwchar_t*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.531045] (nav2_custom_planner) StderrLine: {'line': b'   43 |         RCLCPP_INFO(node_->get_logger(), \x1b[01;35m\x1b[K"\xe6\xad\xa3\xe5\x9c\xa8\xe5\x81\x9c\xe7\x94\xa8 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 %S"\x1b[m\x1b[K , \x1b[32m\x1b[Kname_.c_str()\x1b[m\x1b[K);\n'}
+[21.531091] (nav2_custom_planner) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.531132] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[21.531172] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                                         \x1b[32m\x1b[Kconst char*\x1b[m\x1b[K\n'}
+[21.531211] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:43:73:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.531249] (nav2_custom_planner) StderrLine: {'line': b'   43 |         RCLCPP_INFO(node_->get_logger(), "\xe6\xad\xa3\xe5\x9c\xa8\xe5\x81\x9c\xe7\x94\xa8 CustomPlanner\xe7\x9a\x84\xe6\x8f\x92\xe4\xbb\xb6 \x1b[01;36m\x1b[K%S\x1b[m\x1b[K" , name_.c_str());\n'}
+[21.531287] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.531349] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.531395] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[Kwchar_t*\x1b[m\x1b[K\n'}
+[21.531437] (nav2_custom_planner) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[K%s\x1b[m\x1b[K\n'}
+[21.531476] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.531515] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:48:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kstart\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.531555] (nav2_custom_planner) StderrLine: {'line': b'   48 |         \x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped & start\x1b[m\x1b[K,\n'}
+[21.531594] (nav2_custom_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[21.531640] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:49:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.531681] (nav2_custom_planner) StderrLine: {'line': b'   49 |         \x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped & goal\x1b[m\x1b[K)\n'}
+[21.531725] (nav2_custom_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[21.563591] (-) TimerEvent: {}
+[21.663945] (-) TimerEvent: {}
+[21.764383] (-) TimerEvent: {}
+[21.864799] (-) TimerEvent: {}
+[21.965238] (-) TimerEvent: {}
+[22.065659] (-) TimerEvent: {}
+[22.165969] (-) TimerEvent: {}
+[22.266309] (-) TimerEvent: {}
+[22.366681] (-) TimerEvent: {}
+[22.466960] (-) TimerEvent: {}
+[22.567285] (-) TimerEvent: {}
+[22.667625] (-) TimerEvent: {}
+[22.679689] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57\x1b[m\x1b[K,\n'}
+[22.679909] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55\x1b[m\x1b[K,\n'}
+[22.679974] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52\x1b[m\x1b[K,\n'}
+[22.680022] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38\x1b[m\x1b[K,\n'}
+[22.680065] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54\x1b[m\x1b[K,\n'}
+[22.680106] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:12\x1b[m\x1b[K,\n'}
+[22.680149] (nav2_custom_planner) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6\x1b[m\x1b[K:\n'}
+[22.680189] (nav2_custom_planner) StderrLine: {'line': b'/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_custom_planner::CustomPlanner; B = nav2_core::GlobalPlanner]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.680232] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:\x1b[m\x1b[K   required from here\n'}
+[22.680273] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid new-expression of abstract class type \xe2\x80\x98\x1b[01m\x1b[Knav2_custom_planner::CustomPlanner\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.680316] (nav2_custom_planner) StderrLine: {'line': b'  218 |     return \x1b[01;31m\x1b[Knew C\x1b[m\x1b[K;\n'}
+[22.680358] (nav2_custom_planner) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[22.680408] (nav2_custom_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:6\x1b[m\x1b[K:\n'}
+[22.680448] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/include/nav2_custom_planner/nav2_custom_planner.hpp:24:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  because the following virtual functions are pure within \xe2\x80\x98\x1b[01m\x1b[Knav2_custom_planner::CustomPlanner\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.680497] (nav2_custom_planner) StderrLine: {'line': b'   24 | class \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K: public nav2_core::GlobalPlanner\n'}
+[22.680538] (nav2_custom_planner) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.680577] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:12:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.680624] (nav2_custom_planner) StderrLine: {'line': b'   12 |     void \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K::configure(\n'}
+[22.680662] (nav2_custom_planner) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.680699] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:31:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::cleanup()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.680737] (nav2_custom_planner) StderrLine: {'line': b'   31 |     void \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K::cleanup()\n'}
+[22.680774] (nav2_custom_planner) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.680810] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:36:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::activate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.680847] (nav2_custom_planner) StderrLine: {'line': b'   36 |     void \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K::activate()\n'}
+[22.680882] (nav2_custom_planner) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.680918] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:41:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual void nav2_custom_planner::CustomPlanner::deactivate()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.680955] (nav2_custom_planner) StderrLine: {'line': b'   41 |     void \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K::deactivate()\n'}
+[22.680991] (nav2_custom_planner) StderrLine: {'line': b'      |          \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.681027] (nav2_custom_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:47:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K    \xe2\x80\x98\x1b[01m\x1b[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.681085] (nav2_custom_planner) StderrLine: {'line': b'   47 |     \x1b[01;36m\x1b[KCustomPlanner\x1b[m\x1b[K::createPlan(\n'}
+[22.681122] (nav2_custom_planner) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.767739] (-) TimerEvent: {}
+[22.836884] (nav2_custom_planner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o] Error 1\n'}
+[22.837338] (nav2_custom_planner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2\n'}
+[22.837701] (nav2_custom_planner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.840276] (nav2_custom_planner) CommandEnded: {'returncode': 2}
+[22.867835] (-) TimerEvent: {}
+[22.943477] (nav2_custom_planner) JobEnded: {'identifier': 'nav2_custom_planner', 'rc': 2}
+[22.944655] (-) EventReactorShutdown: {}

@@ -1,0 +1,47 @@
+[0.444s] Invoking command in '/home/scott/chapter8/learn_plugin/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/learn_plugin/build/motion_control_system -- -j16 -l16
+[0.814s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.070s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[8.884s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.263s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.263s] -- Configured cppcheck include dirs: /home/scott/chapter8/learn_plugin/src/motion_control_system/include
+[11.263s] -- Configured cppcheck exclude dirs and/or files: 
+[11.263s] -- Added test 'lint_cmake' to check CMake code style
+[11.264s] -- Added test 'uncrustify' to check C / C++ code style
+[11.265s] -- Configured uncrustify additional arguments: 
+[11.265s] -- Added test 'xmllint' to check XML markup files
+[11.266s] -- Configuring done
+[11.275s] -- Generating done
+[11.278s] -- Build files have been written to: /home/scott/chapter8/learn_plugin/build/motion_control_system
+[11.479s] [35m[1mConsolidate compiler generated dependencies of target spin_motion_controller[0m
+[11.538s] [ 50%] Built target spin_motion_controller
+[11.546s] [ 75%] [32mBuilding CXX object CMakeFiles/test_plugin.dir/src/test_plugin.cpp.o[0m
+[14.475s] [100%] [32m[1mLinking CXX executable test_plugin[0m
+[15.160s] [100%] Built target test_plugin
+[15.299s] Invoked command in '/home/scott/chapter8/learn_plugin/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/learn_plugin/build/motion_control_system -- -j16 -l16
+[15.447s] Invoking command in '/home/scott/chapter8/learn_plugin/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/learn_plugin/build/motion_control_system
+[15.588s] -- Install configuration: ""
+[15.589s] -- Installing: /home/scott/chapter8/learn_plugin/install/motion_control_system/lib/motion_control_system/test_plugin
+[15.591s] -- Set runtime path of "/home/scott/chapter8/learn_plugin/install/motion_control_system/lib/motion_control_system/test_plugin" to ""
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/lib/libspin_motion_controller.so
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/include/
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/include//motion_control_system
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/include//motion_control_system/spin_motion_controller.hpp
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/include//motion_control_system/motion_control_interface.hpp
+[15.592s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/spin_motion_plugins.xml
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/ament_index/resource_index/package_run_dependencies/motion_control_system
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/ament_index/resource_index/parent_prefix_path/motion_control_system
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.sh
+[15.593s] -- Installing: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.dsv
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/environment/path.sh
+[15.593s] -- Installing: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/environment/path.dsv
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/local_setup.bash
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/local_setup.sh
+[15.593s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/local_setup.zsh
+[15.593s] -- Installing: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/local_setup.dsv
+[15.593s] -- Installing: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.dsv
+[15.594s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/ament_index/resource_index/packages/motion_control_system
+[15.594s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/ament_index/resource_index/motion_control_system__pluginlib__plugin/motion_control_system
+[15.594s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig.cmake
+[15.594s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig-version.cmake
+[15.594s] -- Up-to-date: /home/scott/chapter8/learn_plugin/install/motion_control_system/share/motion_control_system/package.xml
+[15.597s] Invoked command in '/home/scott/chapter8/learn_plugin/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/learn_plugin/build/motion_control_system

@@ -1,0 +1,235 @@
+[2.666s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/autopatrol_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces
+[14.909s] -- The C compiler identification is GNU 11.4.0
+[14.909s] -- The CXX compiler identification is GNU 11.4.0
+[14.909s] -- Detecting C compiler ABI info
+[14.909s] -- Detecting C compiler ABI info - done
+[14.910s] -- Check for working C compiler: /usr/bin/cc - skipped
+[14.910s] -- Detecting C compile features
+[14.910s] -- Detecting C compile features - done
+[14.910s] -- Detecting CXX compiler ABI info
+[14.910s] -- Detecting CXX compiler ABI info - done
+[14.910s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.911s] -- Detecting CXX compile features
+[14.911s] -- Detecting CXX compile features - done
+[14.911s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.671s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[33.843s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[35.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.442s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[46.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[53.440s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[69.125s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[80.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[92.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[94.110s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[94.855s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[97.570s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[97.570s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[97.570s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[97.570s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[98.724s] -- Found PythonExtra: .so  
+[101.133s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[108.249s] -- Added test 'lint_cmake' to check CMake code style
+[108.404s] -- Added test 'xmllint' to check XML markup files
+[108.724s] -- Configuring done
+[108.788s] -- Generating done
+[108.801s] -- Build files have been written to: /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces
+[108.813s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/autopatrol_interfaces -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces
+[108.815s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces -- -j16 -l16
+[109.281s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[109.354s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[109.485s] [  6%] Built target ament_cmake_python_copy_autopatrol_interfaces
+[113.526s] [  6%] Built target autopatrol_interfaces__cpp
+[113.546s] [  9%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopatrol_interfaces/srv/detail/speech_text__functions.c.o[0m
+[113.581s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[113.581s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[113.593s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[113.803s] [ 22%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_generator_c.so[0m
+[114.264s] [ 22%] Built target autopatrol_interfaces__rosidl_generator_c
+[114.324s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[114.327s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[114.338s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[115.788s] running egg_info
+[115.789s] creating autopatrol_interfaces.egg-info
+[115.790s] writing autopatrol_interfaces.egg-info/PKG-INFO
+[115.790s] writing dependency_links to autopatrol_interfaces.egg-info/dependency_links.txt
+[115.790s] writing top-level names to autopatrol_interfaces.egg-info/top_level.txt
+[115.790s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[115.794s] reading manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[115.794s] writing manifest file 'autopatrol_interfaces.egg-info/SOURCES.txt'
+[115.950s] [ 32%] Built target ament_cmake_python_build_autopatrol_interfaces_egg
+[117.517s] [ 35%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopatrol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[117.637s] [ 38%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp.o[0m
+[117.953s] [ 41%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopatrol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o[0m
+[118.007s] [ 45%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_cpp.so[0m
+[118.276s] [ 48%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[118.300s] [ 51%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopatrol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[118.411s] [ 51%] Built target autopatrol_interfaces__rosidl_typesupport_cpp
+[118.436s] [ 54%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_c.so[0m
+[118.451s] [ 58%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopatrol_interfaces/srv/detail/speech_text__type_support.c.o[0m
+[118.542s] [ 61%] [32mBuilding CXX object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopatrol_interfaces/srv/detail/speech_text__type_support_c.cpp.o[0m
+[118.623s] [ 64%] [32m[1mLinking C shared library libautopatrol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[118.649s] [ 67%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[118.677s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_cpp
+[118.823s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_c
+[118.985s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c
+[119.035s] [ 67%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_cpp
+[119.082s] [ 70%] [32m[1mLinking CXX shared library libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[119.592s] [ 70%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c
+[119.939s] [ 70%] Built target autopatrol_interfaces
+[120.287s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[124.516s] [ 74%] Built target autopatrol_interfaces__py
+[124.828s] [ 77%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopatrol_interfaces/srv/_speech_text_s.c.o[0m
+[125.242s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so[0m
+[125.755s] [ 80%] Built target autopatrol_interfaces__rosidl_generator_py
+[125.843s] [ 83%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[125.850s] [ 87%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[125.856s] [ 90%] [32mBuilding C object CMakeFiles/autopatrol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[126.026s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[126.031s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[126.043s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[126.274s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[126.281s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_introspection_c__pyext
+[126.402s] [100%] Built target autopatrol_interfaces__rosidl_typesupport_c__pyext
+[126.517s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces -- -j16 -l16
+[126.519s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces
+[126.626s] -- Install configuration: ""
+[126.628s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopatrol_interfaces
+[126.628s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.629s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.630s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.630s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.c
+[126.630s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__functions.h
+[126.631s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.h
+[126.631s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.h
+[126.631s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.h
+[126.631s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[126.632s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[126.633s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.sh
+[126.633s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/library_path.dsv
+[126.634s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so
+[126.634s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_c.so" to ""
+[126.635s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.635s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.635s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.635s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[126.635s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[126.635s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[126.635s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so
+[126.636s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[126.636s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.636s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.636s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.636s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[126.636s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.c
+[126.637s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[126.637s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[126.637s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so
+[126.637s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[126.637s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so
+[126.638s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_c.so" to ""
+[126.638s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.638s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.638s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/speech_text.hpp
+[126.638s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.638s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__traits.hpp
+[126.638s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__builder.hpp
+[126.639s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__struct.hpp
+[126.639s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.hpp
+[126.639s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[126.639s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[126.639s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.640s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.640s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.640s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/dds_fastrtps
+[126.640s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[126.640s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg
+[126.640s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[126.641s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[126.641s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[126.641s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces
+[126.641s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv
+[126.642s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail
+[126.642s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__type_support.cpp
+[126.642s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/include/autopatrol_interfaces/autopatrol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[126.642s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so
+[126.642s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[126.643s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so
+[126.643s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_typesupport_cpp.so" to ""
+[126.643s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.sh
+[126.643s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/pythonpath.dsv
+[126.643s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info
+[126.646s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[126.646s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[126.646s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[126.646s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[126.647s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces
+[126.647s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_c.c
+[126.648s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[126.648s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[126.648s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[126.648s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv
+[126.649s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text_s.c
+[126.649s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py
+[126.649s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py
+[126.650s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[126.650s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py
+[126.650s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/_autopatrol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[126.650s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/libautopatrol_interfaces__rosidl_generator_py.so
+[129.228s] Listing '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces'...
+[129.229s] Compiling '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/__init__.py'...
+[129.229s] Listing '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv'...
+[129.229s] Compiling '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/__init__.py'...
+[129.229s] Compiling '/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/srv/_speech_text.py'...
+[129.235s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[129.235s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[129.235s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[129.236s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[129.236s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[129.237s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/local/lib/python3.10/dist-packages/autopatrol_interfaces/autopatrol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[129.237s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so
+[129.237s] -- Set runtime path of "/home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/lib/libautopatrol_interfaces__rosidl_generator_py.so" to ""
+[129.238s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.idl
+[129.238s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText.srv
+[129.238s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Request.msg
+[129.239s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/srv/SpeechText_Response.msg
+[129.239s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopatrol_interfaces
+[129.240s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopatrol_interfaces
+[129.240s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.sh
+[129.240s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/ament_prefix_path.dsv
+[129.241s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.sh
+[129.241s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/environment/path.dsv
+[129.241s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.bash
+[129.241s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.sh
+[129.241s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.zsh
+[129.242s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/local_setup.dsv
+[129.242s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.dsv
+[129.243s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/ament_index/resource_index/packages/autopatrol_interfaces
+[129.243s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport.cmake
+[129.243s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[129.244s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[129.244s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[129.244s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[129.244s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[129.245s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport.cmake
+[129.245s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[129.245s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_cppExport.cmake
+[129.245s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[129.245s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[129.246s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[129.246s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[129.246s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport.cmake
+[129.246s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[129.247s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport.cmake
+[129.247s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/export_autopatrol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[129.247s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake-extras.cmake
+[129.248s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[129.248s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[129.248s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[129.249s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[129.249s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[129.249s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[129.249s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig.cmake
+[129.249s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/cmake/autopatrol_interfacesConfig-version.cmake
+[129.250s] -- Installing: /home/scott/chapter8/chapter8_ws/install/autopatrol_interfaces/share/autopatrol_interfaces/package.xml
+[129.255s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/autopatrol_interfaces

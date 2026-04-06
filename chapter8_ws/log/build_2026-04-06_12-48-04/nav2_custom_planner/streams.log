@@ -1,0 +1,29 @@
+[12.237s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner
+[12.292s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.299s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[20.841s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[20.861s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[20.863s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[20.868s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[20.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[21.250s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[21.278s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.321s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.632s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[21.674s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[22.029s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.333s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[22.423s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[24.800s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[24.800s]   Given plugin description file
+[24.800s]   '/home/scott/chapter8/chapter8_ws/src/nav2_custom_planner/custom_planner.xml'
+[24.800s]   does not exist
+[24.800s] Call Stack (most recent call first):
+[24.800s]   CMakeLists.txt:48 (pluginlib_export_plugin_description_file)
+[24.800s] 
+[24.800s] [0m
+[24.800s] -- Configuring incomplete, errors occurred!
+[24.800s] See also "/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner/CMakeFiles/CMakeOutput.log".
+[24.812s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/nav2_custom_planner' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake /home/scott/chapter8/chapter8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/scott/chapter8/chapter8_ws/install/nav2_custom_planner

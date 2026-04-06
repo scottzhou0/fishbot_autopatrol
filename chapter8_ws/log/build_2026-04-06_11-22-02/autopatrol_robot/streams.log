@@ -1,0 +1,45 @@
+[21.708s] Invoking command in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build install --record /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[26.264s] running egg_info
+[26.265s] creating ../../build/autopatrol_robot/autopatrol_robot.egg-info
+[26.266s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[26.266s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[26.267s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[26.267s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[26.268s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[26.268s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[26.270s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[26.270s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[26.271s] running build
+[26.271s] running build_py
+[26.271s] creating /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build
+[26.272s] creating /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib
+[26.272s] creating /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[26.273s] copying autopatrol_robot/patrol_node.py -> /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[26.273s] copying autopatrol_robot/__init__.py -> /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[26.274s] copying autopatrol_robot/speaker.py -> /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[26.274s] running install
+[26.275s] running install_lib
+[26.276s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[26.277s] copying /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[26.277s] copying /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/__init__.py -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[26.277s] copying /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot
+[26.318s] byte-compiling /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-310.pyc
+[26.320s] byte-compiling /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/__init__.py to __init__.cpython-310.pyc
+[26.320s] byte-compiling /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot/speaker.py to speaker.cpython-310.pyc
+[26.320s] running install_data
+[26.321s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/ament_index
+[26.321s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/ament_index/resource_index
+[26.322s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[26.322s] copying resource/autopatrol_robot -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[26.322s] copying package.xml -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot
+[26.323s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[26.323s] copying config/patrol_config.yaml -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[26.324s] creating /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[26.324s] copying launch/autopatrol.launch.py -> /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[26.324s] running install_egg_info
+[26.363s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[26.366s] running install_scripts
+[26.820s] Installing patrol_node script to /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/autopatrol_robot
+[26.821s] Installing speaker script to /home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/autopatrol_robot
+[26.822s] writing list of installed files to '/home/scott/chapter8/chapter8_ws/build/autopatrol_robot/install.log'
+[26.862s] Invoked command in '/home/scott/chapter8/chapter8_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/scott/chapter8/chapter8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/scott/chapter8/chapter8_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/build install --record /home/scott/chapter8/chapter8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

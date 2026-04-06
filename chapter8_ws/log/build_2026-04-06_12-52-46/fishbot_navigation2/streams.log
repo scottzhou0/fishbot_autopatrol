@@ -1,0 +1,39 @@
+[13.950s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2 -- -j16 -l16
+[14.138s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2 -- -j16 -l16
+[14.140s] Invoking command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2
+[14.194s] -- Install configuration: ""
+[14.194s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[14.194s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/myonline_async_launch.py:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/myonline_sync_launch.py:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/myonline_sync_launch.py
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/myonline_async_launch.py
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/mapper_params_online_async.yaml:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/mapper_params_online_async.yaml
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/mapper_params_online_async.yaml:Zone.Identifier:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm:Zone.Identifier
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/logs
+[14.195s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml:Zone.Identifier
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[14.196s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[14.197s] -- Up-to-date: /home/scott/chapter8/chapter8_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[14.281s] Invoked command in '/home/scott/chapter8/chapter8_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/e/Dev_ws/install/learning_urdf:/mnt/e/Dev_ws/install/learning_topic:/mnt/e/Dev_ws/install/learning_tf:/mnt/e/Dev_ws/install/learning_service:/mnt/e/Dev_ws/install/learning_qos:/mnt/e/Dev_ws/install/learning_pkg_python:/mnt/e/Dev_ws/install/learning_parameter:/mnt/e/Dev_ws/install/learning_node:/mnt/e/Dev_ws/install/learning_launch:/mnt/e/Dev_ws/install/learning_action:/mnt/e/Dev_ws/install/learning_gazebo_harmonic:/mnt/e/Dev_ws/install/learning_gazebo:/mnt/e/Dev_ws/install/learning_cv:/mnt/e/Dev_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --install /home/scott/chapter8/chapter8_ws/build/fishbot_navigation2

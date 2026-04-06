@@ -1,0 +1,10 @@
+/patrol_node:
+  ros__parameters:
+    initial_point: [0.0, 0.0, 0.0]
+    target_points: [
+      1.0, 1.0, 0.0,
+      1.2, 1.2, 1.57,
+      1.5, 1.5, 3.14
+    ]
+    img_save_path: '/home/scott/chapter7/chapter7_ws/src/autopatrol_robot/images'
+    use_sim_time: false
