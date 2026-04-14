@@ -1,0 +1,92 @@
+import requests
+import json
+import threading
+import yaml
+import time
+import urllib3
+
+# 关闭不安全请求的警告
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+def parse_yaml_from_json(json_data):
+    yaml_content = json_data['response']['content']
+    yaml_content = yaml_content.replace("```yaml\n","").replace("```","").strip()
+    data = yaml.safe_load(yaml_content)
+    return data
+
+class FishBotFirmwareDownloader:
+    def __init__(self, logger):
+        self.logger = logger
+        self.version_info_url = 'https://fishros.org.cn/forum/api/v3/posts/10390'
+        self.url2localfile = {}
+
+    def get_version_data(self, callback=None, is_async=False):
+        """
+        Retrieves version data (with optional async thread).
+        """
+        def thread_func():
+            try:
+                # 关闭 SSL 验证
+                response = requests.get(self.version_info_url, verify=False, timeout=10)
+                response.raise_for_status()
+                raw_data = response.text
+                version_info = parse_yaml_from_json(json.loads(raw_data))
+                if callback:
+                    callback(version_info)
+            except Exception as e:
+                error_message = f'[警告]: 获取最近版本固件地址失败，请手动指定，错误: {str(e)}'
+                self.logger(error_message)
+                if callback:
+                    callback(None)
+        if is_async:
+            thread = threading.Thread(target=thread_func)
+            thread.start()
+        else:
+            thread_func()
+
+    def download_firmware(self, firmware_path, path):
+        """
+        Downloads firmware with progress logs, skipping SSL verification.
+        """
+        if firmware_path in self.url2localfile:
+            return self.url2localfile[firmware_path]
+        
+        self.logger(f'[提示]检测到固件 {firmware_path} 在HTTP路径上，开始下载')
+        try:
+            response = requests.get(firmware_path, stream=True, verify=False, timeout=10)
+            response.raise_for_status()
+        except requests.HTTPError as e:
+            self.logger(f'[错误]下载固件失败，HTTP错误: {str(e)}')
+            return None
+        except requests.exceptions.ConnectionError as e:
+            self.logger(f'[错误]网络错误: {str(e)}')
+            return None
+        
+        total_size = int(response.headers.get('content-length', 0))
+        bytes_written = 0
+        last_print_time = time.time()
+        with open(path, 'wb') as file:
+            for chunk in response.iter_content(chunk_size=1024):
+                if chunk:
+                    file.write(chunk)
+                    bytes_written += len(chunk)
+                    if time.time() - last_print_time > 0.3:
+                        last_print_time = time.time()
+                        progress = (bytes_written / total_size) * 100 if total_size > 0 else 0
+                        self.logger(f'[进度]下载中：{path} - {progress:.2f}%完成')
+        self.logger(f'\n[提示]下载完成：{path}')
+        self.url2localfile[firmware_path] = path
+        return path
+
+if __name__ == "__main__":
+    def log(msg):
+        print(msg)
+
+    def callback(data):
+        if data:
+            print("Version Data Retrieved Successfully:", data)
+        else:
+            print("Failed to retrieve version data.")
+
+    downloader = FishBotFirmwareDownloader(log)
+    downloader.get_version_data(callback)
